@@ -1,0 +1,20 @@
+.main-div {
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+}
+.side-navbar {
+    display: flex;
+    background-color: black;
+}
+
+a {
+    margin: 2rem;
+    color: white;
+}
+
