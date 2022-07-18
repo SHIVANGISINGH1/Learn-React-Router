@@ -32,3 +32,8 @@ export let invoices = [
 ];
 
 
+export function getInvoice(number) {
+  return (
+    invoices.find((inv) => inv.number == number)
+  )
+}

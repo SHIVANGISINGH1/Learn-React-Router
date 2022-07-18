@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom"
+import { Link, Outlet } from "react-router-dom"
 import { invoices } from "../data"
 import '../invoices.css';
 export default function Invoices() {
@@ -13,6 +13,7 @@ export default function Invoices() {
                 </Link>
             ))}
         </div>
+        <Outlet/>
       </div>
     );
 } 
